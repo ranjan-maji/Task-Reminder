@@ -19,15 +19,9 @@
       "id": 3
     },
     {
-      "text": "police call",
-      "day": "Match 10th at 5.30PM",
-      "reminder": true,
-      "id": 4
-    },
-    {
       "text": "Goto Shopping ",
       "day": "Feb 9th Feb at 2:30PM",
-      "reminder": false,
+      "reminder": true,
       "id": 5
     },
     {
