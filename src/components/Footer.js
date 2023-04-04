@@ -9,10 +9,10 @@ const Footer = () => {
       <Link to='/about'>About</Link>
       <br />
         <span>
-          <FaFacebook />
+          <FaFacebook style={{ color:'blue', cursor: 'pointer'}} />
         </span>
         <span>
-        <FaTwitter />
+        <FaTwitter style={{ color:'skyblue', cursor: 'pointer'}} />
         </span>
     </footer>
   )
