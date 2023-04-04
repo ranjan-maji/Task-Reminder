@@ -82,25 +82,17 @@ const fetchTask = async (id) => {
   return (
     <Router>
           <div className='container'>
-            <Header
-              onAdd={() => setShowAddTask(!showAddTask)}
-              showAdd={showAddTask}
-            />
+            <Header onAdd={() => setShowAddTask(!showAddTask)}showAdd={showAddTask} />
                 <Routes>
-                      <Route
-                        path='/'
-                        element={
-                          <>
-                            {showAddTask && <AddTask onAdd={addTask} />}
-                            {tasks.length > 0 ? (
-                              <Tasks
-                                tasks={tasks}
-                                onDelete={deleteTask}
-                                onToggle={toggleReminder}
-                              />
-                            ) : (
-                              'No Tasks To Show'
-                                )}
+                      <Route path='/'element=
+                         {
+                             <>
+                              {showAddTask && <AddTask onAdd={addTask} />}
+                              {tasks.length > 0 ? (
+                                <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
+                              ) : (
+                                'No Tasks To Show'
+                                  )}
                               </>
                             }
                           />

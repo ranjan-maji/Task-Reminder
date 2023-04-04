@@ -23,12 +23,6 @@
       "day": "Feb 9th Feb at 2:30PM",
       "reminder": true,
       "id": 5
-    },
-    {
-      "text": "test",
-      "day": "test222",
-      "reminder": true,
-      "id": 6
     }
   ]
 }
